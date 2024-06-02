@@ -1,4 +1,4 @@
-This reposiotory is a boilerplte for [Next.js](https://nextjs.org/) with [Payload CMS](https://payloadcms.com/) project 
+This reposiotory is a boilerplate for [Next.js](https://nextjs.org/) with [Payload CMS](https://payloadcms.com/) project 
 ## Getting Started
 
 First, run 
