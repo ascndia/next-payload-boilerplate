@@ -1,8 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+This reposiotory is a boilerplte for [Next.js](https://nextjs.org/) with [Payload CMS](https://payloadcms.com/) project 
 ## Getting Started
 
-First, run the development server:
+First, run 
+```bash
+npm install
+#or
+yarn install
+```
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -14,7 +19,22 @@ pnpm dev
 bun dev
 ```
 
+If you encounter problem, try building nextjs 
+```bash
+npm build
+# or
+yarn build
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Fill .env file to initialize payload server
+```
+PAYLOAD_SECRET='secret'
+DATABASE_URI=mongodb+srv://user:password@projectname.mongodb.net/?retryWrites=true&w=majority&appName=project-management
+NEXT_PUBLIC_SERVER_URL=http://localhost:3000
+PORT=3000
+```
+Open [http://localhost:3000/admin](http://localhost:3000/admin) with your browser to see the Payload CMS admin page.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
